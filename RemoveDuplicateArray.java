@@ -25,6 +25,7 @@ public class RemoveDuplicateArray {
 					temp=a[j];
 					a[j]=a[length-1];
 					a[length-1]=temp;
+					j--;
 					length--;
 				}
 			}
